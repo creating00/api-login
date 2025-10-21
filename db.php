@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "login_db";
+$user = "u383024755_apilogin";
+$pass = "System32&";
+$db   = "u383024755_apilogin";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
