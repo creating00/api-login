@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         "password" => $_POST["password"]
     ];
 
-    $ch = curl_init("../register.php"); // Ajustá la URL según tu servidor
+    $ch = curl_init("../https://api-login.creatingsoft.net/register.php"); // Ajustá la URL según tu servidor
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
